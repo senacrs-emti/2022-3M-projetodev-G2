@@ -280,7 +280,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FollowSpeed: 2
   yOffset: 1
-  target: {fileID: 1548993808}
+  target: {fileID: 1709525348}
 --- !u!1 &627574962
 GameObject:
   m_ObjectHideFlags: 0
@@ -514,11 +514,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.034048885}
   m_EdgeRadius: 0
---- !u!4 &1548993808 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 706549687195245939, guid: 53303c236b2be9946a35bcafbd25af6f, type: 3}
-  m_PrefabInstance: {fileID: 706549685748970107}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1593989447
 GameObject:
   m_ObjectHideFlags: 0
@@ -577,6 +572,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.04208237}
   m_EdgeRadius: 0
+--- !u!4 &1709525348 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 706549687195245939, guid: 53303c236b2be9946a35bcafbd25af6f, type: 3}
+  m_PrefabInstance: {fileID: 706549685748970107}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1918778548
 GameObject:
   m_ObjectHideFlags: 0

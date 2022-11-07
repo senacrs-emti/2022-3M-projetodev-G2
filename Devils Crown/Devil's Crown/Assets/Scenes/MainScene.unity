@@ -480,6 +480,18 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 2904301862580790690, guid: 53303c236b2be9946a35bcafbd25af6f, type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7215082949288488950, guid: 53303c236b2be9946a35bcafbd25af6f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7215082949288488950, guid: 53303c236b2be9946a35bcafbd25af6f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.03
+      objectReference: {fileID: 0}
     - target: {fileID: 7751361565431869981, guid: 53303c236b2be9946a35bcafbd25af6f, type: 3}
       propertyPath: Bullet
       value: 

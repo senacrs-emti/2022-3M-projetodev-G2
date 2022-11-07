@@ -8,7 +8,7 @@ public class Bullet : MonoBehaviour{
 
     // Update is called once per frame
     void Update(){
-        transform.Translate(Vector3.up * Time.deltaTime * speed);
+        transform.Translate(Vector3.right * Time.deltaTime * speed);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

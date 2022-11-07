@@ -21,8 +21,7 @@ public class GunController : MonoBehaviour{
 
     void Shoot(){
         if (Input.GetButtonDown("Fire1")){
-            Instantiate(Bullet, transform.position, transform.rotation);
-
+            Instantiate(Bullet, SpawnBullet.position, transform.rotation);
         }
     }
 

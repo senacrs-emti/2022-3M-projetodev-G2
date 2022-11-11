@@ -97,6 +97,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 204af07b5526c7d48b5700561406373a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Bullet: {fileID: 8649461476613729302, guid: fe0c074906e4a194d85baa45969cf7f6, type: 3}
+  SpawnBullet: {fileID: 2948887090057970155, guid: 0028038f69b8e914e93e5fcf14f7fdee, type: 3}
 --- !u!1 &706549687195245944
 GameObject:
   m_ObjectHideFlags: 0

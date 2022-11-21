@@ -7,7 +7,7 @@ public class SpawnManeger : MonoBehaviour{
     [SerializeField] GameObject Enemy;
 
     void Start(){
-        InvokeRepeating("SpawnEmenies", 0.5f, 0.5f);
+        InvokeRepeating("SpawnEnemies", 0.5f, 1f);
     }
 
 

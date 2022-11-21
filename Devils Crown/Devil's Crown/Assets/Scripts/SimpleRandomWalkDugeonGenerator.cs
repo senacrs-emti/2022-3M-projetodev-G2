@@ -24,7 +24,6 @@ public class SimpleRandomWalkDugeonGenerator : MonoBehaviour{
         HashSet<Vector2Int> floorPositions = RunRandomWalk();
         tilemapVisualizer.Clear();
         tilemapVisualizer.PaintFloorTiles(floorPositions);
-        WallGenerator.CreateWalls(floorPositions, tilemapVisualizer);
     }
 
     protected HashSet<Vector2Int> RunRandomWalk(){

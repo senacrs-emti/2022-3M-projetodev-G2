@@ -287,7 +287,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   floorTilemap: {fileID: 200968269}
+  wallTilemap: {fileID: 0}
   floorTile: {fileID: 11400000, guid: 471853985ed4b5242ad12af71ace0cf6, type: 2}
+  wallTop: {fileID: 0}
 --- !u!4 &72831264
 Transform:
   m_ObjectHideFlags: 0
@@ -634,8 +636,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startPosition: {x: 0, y: 0}
-  interations: 20
-  walkLength: 10
+  interations: 50
+  walkLength: 50
   startRandomlyEachInteration: 1
   tilemapVisualizer: {fileID: 72831263}
 --- !u!4 &808754261

@@ -36,8 +36,9 @@ public class TilemapVisualizer : MonoBehaviour{
         tilemap.SetTile(tilePosition, tile);
     }
 
-    public void Clear(){
-
+    public void Clear()
+    {
+        wallTilemap.ClearAllTiles();
         floorTilemap.ClearAllTiles();
     }
 }

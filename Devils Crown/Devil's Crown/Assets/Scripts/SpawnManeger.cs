@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnManeger : MonoBehaviour{
+public class SpawnManager : MonoBehaviour{
     [SerializeField] Transform[] SpawnPoints;
     [SerializeField] GameObject Enemy;
 

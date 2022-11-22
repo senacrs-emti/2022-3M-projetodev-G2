@@ -6,12 +6,14 @@ public class SpawnManager : MonoBehaviour{
     [SerializeField] Transform[] SpawnPoints;
     [SerializeField] GameObject Enemy;
 
-    void Start(){
+    void Start()
+    {
         InvokeRepeating("SpawnEnemies", 0.5f, 1f);
     }
 
 
-    void SpawnEnemies(){
+    void SpawnEnemies()
+    {
         int index = Random.Range(0, SpawnPoints.Length);
         Instantiate(Enemy, SpawnPoints[index].position, Quaternion.identity);
     }

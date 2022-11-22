@@ -48,12 +48,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 647fea05cc88d714aacebb27aebcf10d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoints:
+  SpawnPoints:
   - {fileID: 3086682679742134649}
   - {fileID: 190569112523036639}
   - {fileID: 977392291529963652}
   - {fileID: 5599935072845967031}
-  Enemy: {fileID: 6896579813916149786, guid: 53484721adeebd547b0742aa5f9172f6, type: 3}
+  Enemy: {fileID: 0}
 --- !u!1 &902266391163417499
 GameObject:
   m_ObjectHideFlags: 0

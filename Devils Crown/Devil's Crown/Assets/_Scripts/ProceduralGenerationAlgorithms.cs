@@ -106,26 +106,26 @@ public static class Direction2D
 {
     public static List<Vector2Int> cardinalDirectionsList = new List<Vector2Int>
     {
-        new Vector2Int(0,1), //UP
-        new Vector2Int(1,0), //RIGHT
-        new Vector2Int(0, -1), // DOWN
-        new Vector2Int(-1, 0) //LEFT
+        new Vector2Int(0,1), //Cima
+        new Vector2Int(1,0), //Direita
+        new Vector2Int(0, -1), // Baixo
+        new Vector2Int(-1, 0) //Esquerda
     };
 
     public static List<Vector2Int> diagonalDirectionsList = new List<Vector2Int>
     {
-        new Vector2Int(1,1), //UP-RIGHT
-        new Vector2Int(1,-1), //RIGHT-DOWN
-        new Vector2Int(-1, -1), // DOWN-LEFT
-        new Vector2Int(-1, 1) //LEFT-UP
+        new Vector2Int(1,1), //Cima-Direita
+        new Vector2Int(1,-1), //Direita-Baixo
+        new Vector2Int(-1, -1), // Baixo-Esquerda
+        new Vector2Int(-1, 1) //Esquerda-Cima
     };
 
     public static List<Vector2Int> eightDirectionsList = new List<Vector2Int>
     {
-        new Vector2Int(0,1), //UP
-        new Vector2Int(1,1), //UP-RIGHT
-        new Vector2Int(1,0), //RIGHT
-        new Vector2Int(1,-1), //RIGHT-DOWN
+        new Vector2Int(0,1), //Cima
+        new Vector2Int(1,1), //Cima-Direita
+        new Vector2Int(1,0), //Direita
+        new Vector2Int(1,-1), //Direita-Baixo
         new Vector2Int(0, -1), // DOWN
         new Vector2Int(-1, -1), // DOWN-LEFT
         new Vector2Int(-1, 0), //LEFT
